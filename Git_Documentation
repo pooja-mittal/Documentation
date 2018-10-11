@@ -1,0 +1,36 @@
+Git is version control system and used to keep track of changes in any set of files. 
+It’s primarily used for source code management. It’s unique features are Committing new  changes, branching, merging and comparing all past versions. 
+
+**Prerequisite to use Git**: 
+Create account in Github/Bitbucket.
+Install git bash for your machine Linux/windows
+
+Some commonly commands which use in git:
+Git init: create a new git repository.
+Git clone: clone git repository to your local machine. 
+Git status: display the state of the working directory and the staged snapshot. 
+Git add . : to add all the files 
+Git commit -m “some msg” : to commit all the changes from local to remote repository.
+Git remote add origin master <server>: add project to server.
+Git push -u origin master: push all changes to Github/Bitbucket server.
+Git pull : pull all changes from repository to local. 
+Git branch ‘branch-name’: create new branch 
+Git checkout branch-name: pointer starts to point branch-name branch and leave master branch. 
+Git checkout -b branch-name: create new branch and switch to it in one step. 
+Git checkout merge: before merging any branch to master branch first enter into master branch
+Git merge branch-name: merge branch with master branch and now pointer points to master branch
+Git branch -d branch-name: delete branch
+Git log: display history, like all commits and who did the commits. 
+Git diff: changes b/w two branches or changes b/w files in local. 
+Git fetch origin master: fetch latest history from the server
+Git reset --hard origin/master: undo recent commit from local. 
+Git stash: save code on a stack for temporary so that user can safely switch the branch and move back to it and commit it’s code. 
+Git stash pop: remove changes from stack and place the temporary code in working directory.  
+Git stash list: display list of stash file
+Git rm filename: remove file from repository and local both.
+Git rm --cached filename: remove file from repository, not from local. 
+
+
+
+
+
